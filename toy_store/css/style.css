@@ -1,0 +1,235 @@
+
+       
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        .icon{
+            height:20px;
+            width: 20px;
+        }
+        .bgcolor{
+            background-color: lightgreen;
+            padding:10px;
+        }
+        
+        .headerbg{
+            background: url(../images/background.jpg);
+            height: 100vh;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .bgimg{
+            background: url(../images/toysbg.jpeg);
+            height: 100vh;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .navposition{
+            position: fixed;
+            width:100%;
+          
+        }
+        .navheader{
+              background-color: rgb(245, 242, 242);
+        }
+        .cart{ 
+            position: relative;
+            font-size: large;
+            right:30px;
+        }
+        .cartitem{
+            position: absolute;
+            background-color: lightgreen;
+            border-radius: 50%;
+            width: 10px;
+            top:-12px;
+            right:10px;
+        }
+        .flex{
+            display: flex;
+            gap:2rem;        
+            justify-content: space-between;   
+            align-items: center;
+        }
+        .welcomebox{
+            background-color: white;
+            width: fit-content;
+            padding: 5px;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;                
+            justify-content: center;   
+            align-items: center;
+            height: 200px;
+            width: 500px;
+             opacity: 0;
+            transform: translateY(-30px);
+            animation: slideInLeft 1s ease forwards;
+                }
+         @keyframes slideInLeft {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+         }
+        .contact{
+            display: flex;
+            gap:2rem;        
+            justify-content: space-between;   
+            align-items: center;
+            color: black;
+        }
+        .buttonstyle{
+            background-color: rgb(63, 209, 63);
+            border-radius: 30px;
+            padding: 10px;
+            width:fit-content;
+            font-size: large;
+        }
+
+        .gridcontainer{
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        .imgsize{
+            height: 15em;
+            width: 15em;
+        }
+        .boxview1{
+            margin-top: 10rem;
+            margin-left: 2rem;
+            margin-right: 2rem;
+            background-color: goldenrod;        
+            height:200px;
+            border-radius: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+      
+        .boxview2{
+            margin-top: 10rem;
+             margin-left: 2rem;
+            margin-right: 2rem;
+            background-color: crimson;        
+            height:200px;
+            border-radius: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .margin{
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+            border-bottom: 2px solid lightgreen;
+        }
+        .flexcontainer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 3em;
+            flex-wrap: wrap;
+            margin: 10px;
+        }
+        .flexitems{
+            border: 1px solid gray;
+            box-shadow: 5px 5px 5px gray;
+            border-radius: 10px;            
+            align-items: center;
+            padding: 10px;
+        }
+        .centeralign{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .navflex,nav{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 3em;
+        }
+        nav{
+            gap:2em;
+        }
+        footer{
+            margin-top: 2rem;
+        }
+        
+        .scale{
+            transition: transform 0.5s ease;
+        }
+        .scale:hover{
+             transform: scale(1.1);
+        }
+        @media (max-width:1024px) and (min-width:600px){
+            .gridcontainer{
+            grid-template-columns: 1fr;
+        }
+        }
+        .margintop{
+            border-top: 1px solid white;
+        }
+        .catalog{
+            height:100px;
+        }
+        .catalog1{
+            height:200px;
+        }
+        .boxstyle{
+            height: 300px;
+            line-height: 1.6;
+            padding: 10px;
+            
+        }
+        
+        .instaimgsize{
+            height: 10em;
+            width: 10em;
+        }
+        .border{
+            border: 1px solid lightgray;
+            border-radius: 20px;
+        }
+        .buttonstyle1{
+            background-color:lightgrey;
+            border-radius: 30px;
+            padding: 10px;
+            width:fit-content;
+            font-size: large;
+        }
+        .flexcontainer1{
+            justify-content: flex-start;
+        }
+        .flexcontainer2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1em;
+            flex-wrap: wrap;
+            margin: 10px;
+            flex-direction: column;
+        }
+         .flexcontainer3{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+            margin: 10px;
+            flex-direction: column;
+        }
+        form{
+            padding: 10px;
+            margin: 10px;
+            line-height: 1.6;
+        }
